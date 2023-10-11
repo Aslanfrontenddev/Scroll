@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./gsap/gsap.min.js" defer></script>
+    <script src="./gsap/ScrollTrigger.min.js" defer></script>
+    <script src="./gsap/ScrollSmoother.min.js" defer></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="wraper">
+        <div class="content">
+            <section data-speed=".6" class="hero">
+                <img gata-lag=".5" src="./img/hero.png" class="hero-img">
+            </section>
+            <div class="container">
+                <div data-speed=".75" class="main-header">
+                    <h1 class="main-title">Creative scroll</h1>
+                </div>
+            </div>
+            <section class="portfolio"> 
+                <div class="container">
+                    <main class="gallery">
+                        <div data-speed=".9" class="gallery__left">
+                            <img class="gallery__item" src="./img/work/1.jpg">
+                            <img class="gallery__item" src="./img/work/2.jpg">
+                            <div class="text-block gallery__item">
+                                <h2 class="text-block-h">Creative floating with amazing paralax effect</h2>
+                                <p class="text-block-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, commodi accusamus vel asperiores cupiditate ratione.</p>
+                            </div>
+                            <img class="gallery__item" src="./img/work/6.jpg">
+                        </div>
+                        <div data-speed="1.2" class="gallery__right">
+                            <div class="text-block gallery__item">
+                                <h2 class="text-block-h">Creative floating with amazing paralax effect</h2>
+                                <p class="text-block-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, commodi accusamus vel asperiores cupiditate ratione.</p>
+                            </div>
+                            <img class="gallery__item" src="./img/work/4.jpg">
+                            <img class="gallery__item" src="./img/work/5.jpg">
+                            <img class="gallery__item" src="./img/work/3.jpg">
+                        </div>
+                    </main>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
